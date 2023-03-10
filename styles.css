@@ -57,6 +57,8 @@ button {
   font-size: 1rem;
 }
 
+/* GENERIC STYLES */
+
 .name,
 .passcode {
   display: flex;

@@ -62,3 +62,8 @@ button {
   display: flex;
   gap: 1rem;
 }
+
+.success {
+  color: #3aab58;
+  text-align: center;
+}

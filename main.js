@@ -1,10 +1,16 @@
 const form = document.querySelector("form");
-const success = document.querySelector(".success");
+const message = document.querySelector(".message");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   form.checkValidity();
 
-  success.innerHTML = "<p>Your Profile was created successfully</p>";
+  // CREATE SUCCESS MESSAGE
+
+  const success = document.createElement("p");
+  success.className = "success";
+  success.textContent = "Your Profile was created successfully";
+
+  message.appendChild(success);
 });

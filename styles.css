@@ -71,3 +71,20 @@ button {
   color: #3aab58;
   text-align: center;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #ccc;
+  }
+
+  form {
+    background-color: #ccc;
+  }
+
+  button {
+    background-color: #000;
+    color: #fff;
+  }
+}
